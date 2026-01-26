@@ -1,0 +1,88 @@
+export const menuData = [
+  {
+    category: "Starters",
+    items: [
+      { name: "Hara Bhara Kabab (8 pcs)", price: 110 },
+      { name: "Paneer Tikka (8 pcs)", price: 150 },
+      { name: "Corn Tikki (8 pcs)", price: 130 },
+      { name: "Spring Roll (8 pcs)", price: 120 },
+      { name: "Veg Cutlet", price: 90 },
+      { name: "Chilli Paneer", price: 130 },
+      { name: "Crispy Corn", price: 110 },
+      { name: "French Fries", price: 80 },
+    ],
+  },
+  {
+    category: "Paneer Main Course",
+    items: [
+      { name: "Shahi Paneer", price: 130 },
+      { name: "Paneer Butter Masala", price: 130 },
+      { name: "Mutter Paneer", price: 110 },
+      { name: "Paneer Kadhai", price: 130 },
+      { name: "Paneer Bhurji", price: 150 },
+      { name: "Paneer Lababdar", price: 150 },
+      { name: "Paneer Kolhapuri", price: 150 },
+      { name: "Kaju Paneer", price: 140 },
+      { name: "Paneer Do Pyaza", price: 130 },
+      { name: "Kaka Special Paneer", price: 170 },
+    ],
+  },
+  {
+    category: "Vegetable Main Course",
+    items: [
+      { name: "Chana Masala", price: 110 },
+      { name: "Mix Veg", price: 120 },
+      { name: "Aloo Jeera", price: 90 },
+      { name: "Aloo Palak", price: 90 },
+      { name: "Aloo Do Pyaza", price: 110 },
+      { name: "Aloo Dum", price: 110 },
+      { name: "Sev Bhaji", price: 100 },
+      { name: "Veg Kolhapuri", price: 100 },
+      { name: "Dal Tadka", price: 110 },
+      { name: "Dal Fry", price: 100 },
+      { name: "Dal Makhani", price: 140 },
+    ],
+  },
+  {
+    category: "Rice",
+    items: [
+      { name: "Plain Rice", price: 90 },
+      { name: "Jeera Rice", price: 100 },
+      { name: "Veg Pulao", price: 120 },
+      { name: "Veg Fried Rice", price: 110 },
+      { name: "Veg Biryani", price: 130 },
+      { name: "Steamed Rice", price: 90 },
+    ],
+  },
+  {
+    category: "Indian Breads",
+    items: [
+      { name: "Tawa Roti", price: 10 },
+      { name: "Butter Roti", price: 12 },
+      { name: "Plain Naan", price: 25 },
+      { name: "Butter Naan", price: 35 },
+      { name: "Garlic Naan", price: 40 },
+      { name: "Paneer Paratha", price: 40 },
+      { name: "Aloo Paratha", price: 40 },
+      { name: "Tandoori Roti", price: 15 },
+    ],
+  },
+  {
+    category: "Beverages",
+    items: [
+      { name: "Tea", price: 25 },
+      { name: "Hot Coffee", price: 55 },
+      { name: "Cold Coffee", price: 60 },
+      { name: "Lassi", price: 40 },
+      { name: "Butter Milk", price: 30 },
+      { name: "Fresh Lime Water", price: 30 },
+    ],
+  },
+  {
+    category: "Desserts",
+    items: [
+      { name: "Gulab Jamun (2 pcs)", price: 40 },
+      { name: "Ice Cream", price: 50 },
+    ],
+  },
+];
