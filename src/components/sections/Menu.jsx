@@ -3,7 +3,7 @@ import MenuSection from "./menu/menuSection";
 
 export default function Menu() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-[#2a140b] to-[#0f0704] py-28">
+    <section className="min-h-screen bg-gradient-to-b from-[#2a140b] to-[#0f0704] py-28" id="menu">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h1 className="font-serif text-5xl md:text-6xl text-[#d6b24a]">
           Digital Menu
@@ -27,7 +27,7 @@ export default function Menu() {
 
           <div className="mt-16 text-center text-[#f1dba6]">
             <p className="font-serif text-xl">Kaka Ki Rasoi</p>
-            <p className="text-sm mt-2">Rajendra Nagar, Indore</p>
+            <p className="text-sm mt-2">Jawahar Tekri, Indore</p>
           </div>
         </div>
 

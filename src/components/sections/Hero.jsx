@@ -1,4 +1,4 @@
-import heroBg from '../../assets/hero-bg.jpg'
+import heroBg from "../../assets/hero-bg.jpg";
 
 export default function Hero() {
   return (
@@ -18,20 +18,26 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
-          <button className="px-8 py-3 rounded-md bg-[#d6b24a] text-black font-semibold hover:bg-[#caa63f] transition">
+          <button
+            onClick={() =>
+              document
+                .getElementById("menu")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="px-8 py-3 rounded-md bg-[#d6b24a] text-black font-semibold hover:bg-[#caa63f] transition"
+          >
             View Menu
           </button>
-          <button className="px-8 py-3 rounded-md bg-red-600 text-white font-semibold hover:bg-red-700 transition">
+          <a
+            href="https://www.zomato.com/indore/kaka-ki-rasoi-ranjeet-hanuman/order"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 rounded-md bg-red-600 text-white font-semibold hover:bg-red-700 transition text-center"
+          >
             Order on Zomato
-          </button>
+          </a>
         </div>
       </div>
-      <div className="absolute bottom-6 left-6 z-20">
-        <button className="w-12 h-12 rounded-full border border-white text-white flex items-center justify-center hover:bg-white hover:text-black transition">
-          ♫
-        </button>
-      </div>
-
     </section>
-  )
+  );
 }

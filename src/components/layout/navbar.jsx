@@ -17,12 +17,22 @@ export default function Navbar() {
           <a href="#location" className="hover:text-gray-300">Location</a>
         </nav>
         <div className="hidden md:flex items-center gap-4">
-          <button className="px-5 py-2 text-sm rounded-full border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition">
+         <a
+            href="https://www.zomato.com/indore/kaka-ki-rasoi-ranjeet-hanuman/order"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 text-sm rounded-full border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition"
+          >
             ORDER ONLINE
-          </button>
-          <button className="px-5 py-2 text-sm rounded-full bg-[#d6b24a] text-black hover:bg-[#caa63f] transition">
+          </a>
+          <a
+            href="https://www.zomato.com/indore/kaka-ki-rasoi-ranjeet-hanuman"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 text-sm rounded-full bg-[#d6b24a] text-black hover:bg-[#caa63f] transition"
+          >
             BOOK TABLE
-          </button>
+          </a>
         </div>
 
       </div>
